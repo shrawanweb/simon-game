@@ -7,7 +7,7 @@ let highScore=0;
 let started=false;
 let level=0;
 
-let btns=["yellow","red","purple","green"]
+let btns=["red","green","orange","purple"]
 let h2= document.querySelector("h2");
 
 document.addEventListener("keypress",function(){
@@ -15,8 +15,8 @@ document.addEventListener("keypress",function(){
     {
         console.log("game is start");
         started=true;
-    }
     levelUP();
+    }
 })
 
 function btnFlash(btn){
